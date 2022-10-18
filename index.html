@@ -9,6 +9,16 @@
         nav div{
             padding: 10px;
         }
+
+        .nav-link:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .nav-img:hover {
+            background-color: #515151;
+        }
+
     </style>
 </head>
 <body style="
@@ -27,9 +37,9 @@
             align-items: center;
             ">
             
-        <div>Gmail</div>
-        <div>Images</div>
-        <div>
+        <div class="nav-link">Gmail</div>
+        <div class="nav-link">Images</div>
+        <div class="nav-img" style="width: 24px; height: 24px">
             <svg
             style="width: 24px; height: 24px;"
             class="gb_Ue"
@@ -41,7 +51,7 @@
                 </path>
             </svg>
         </div>
-        <div style="width: 32px; height: 32px">
+        <div class="nav-img" style="width: 32px; height: 32px">
             <img
             style="width: 32px; height: 32px"
             src="profile.png"
